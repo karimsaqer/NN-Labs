@@ -6,6 +6,9 @@ def get_accuracy(pred, Y):
 """ HELPER FUNCTION: PRINT ACCURACY ========================================="""
 def print_accuracy(acc):
     print('Accuracy: Training: %.4f - Test: %.4f' % acc)
+    
+def print_accuracy_two(acc_train, acc_test):
+    print(f'Accuracy: Training: {acc_train * 100}% - Test: {acc_test * 100}%')
    
 
 """ HELPER FUNCTION: PLOT FUNCTION ========================================="""
